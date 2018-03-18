@@ -1,68 +1,25 @@
-<html lang="en">
-<head>
-
-	<title>dVRoman</title>
-
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-
-	<link rel=stylesheet type=text/css href="css/styles.css">
-	<link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
-
-	<script src="TemplateData/UnityProgress.js"></script>  
-        <script src="Build/UnityLoader.js"></script>
-	<script>
-	   var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webunitydemo.json", {onProgress: UnityProgress});
-	</script>
-	<!--
-	<link rel="icon" 
-      		type="image/png" 
-      		href="img/segmentationViewerImages/favicon.png" 
-      	/>
-    -->
-
-</head>
-
-<body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    	<div class="row" style="width:100%;">  
-      		<a href="/">
-				<img src="img/mainicon_white_small.png" class="img-rounded" alt="diane villaroman">
-	  		</a>
-	  		<h1 style="padding-top:8px; padding-left:10px;">dVR</h1>
-	  		<div style="padding-top:10px; padding-left:10px;">
-	  			<a href="/" class="button button-3d button-action button-pill">About Me</a>
-	  			<a href="/" class="button button-3d button-action button-pill">Gallery</a>
-	  			<a href="/" class="button button-3d button-action button-pill">VR Gallery</a>
-		  		<a class="button button-3d button-action button-pill" href="/" role="button">Blog</a>
-		  		<a class="button button-3d button-action button-pill" href="/" role="button">Work</a>
-		  		<a class="button button-3d button-action button-pill" href="/" role="button">Contact Me</a>
-	  		</div>
-	  	</div>
-	</nav>
-
-<br>
-
-	<h1> Diane Villaroman </h1>
-	
-	<div class="webgl-content">
-	      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-	      <div class="footer">
-		<div class="webgl-logo"></div>
-		<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-		<div class="title">webproject</div>
-	      </div>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-</body>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | webproject</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webunitydemo.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">webproject</div>
+      </div>
+    </div>
+  </body>
 </html>

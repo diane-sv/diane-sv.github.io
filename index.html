@@ -15,6 +15,7 @@
 	<link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
 	<link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
 	<link rel="icon" 
       		type="image/png" 
@@ -44,7 +45,7 @@
 </head>
 
 <body style="color:#000000">
-	<div id="nav-top" style="position:fixed; width:100%;">
+	<div id="nav-top" style="width:100%;">
 		<nav id="navbar-example2" class="navbar navbar-expand-sm bg-dark navbar-dark" style="opacity:100%">
 		<a href="index.html">
 				<img src="img/iconDV_small.png" class="img-rounded" alt="diane villaroman" >
@@ -69,16 +70,16 @@
 		</div>
 		</nav>
 	</div>
-	<div data-spy="scroll" data-target="#navbar-example2" data-offset="200" style="padding-left:10%; padding-right:10%; padding-top:200px;">
+	<div data-spy="scroll" data-target="#navbar-example2" data-offset="200" style="padding-left:10%; padding-right:10%; ">
 		<div>
 
-	  	<div id="about" style="height:1000px">
+	  	<div id="about" style="margin:30px">
 		  <h4>About Me</h4>
-		  	<div style="column-count: 2">
-				<div style="text-align:right; color:#000000">
+		  	<div class="row">
+				<div style="float:left; margin:auto; color:#000000">
 					<h1 style="font-size:80px"> Diane <br> Villaroman</h1>
 				</div>
-				<div >
+				<div style="float:right; margin:auto">
 					<img src="img/DianeV_photo.jpg" alt="DianeV" style="border-radius:10px; width: 235px; height: 300px">
 				</div>
 			</div>
@@ -93,20 +94,20 @@
 			</div>
 
 			<div id="section2">
-				<h1 align=center>VR + AR Work</h1>
+				<h1 align="center">VR + AR Work</h1>
 
-			    <div class="grid-container"> 
-				  <div class="item4">
+			    <div class="w3-row" style="border-style:solid; overflow:scroll; "> 
+				  <div class="w3-col m1" style="width:330px; padding-left:8%">
 				  	<h3>Full Production on Multiple Platforms and Languages</h3>
 				    <p>GearVR, Vive, iPad, Web, and more!</p>
 				  </div>
 
-				  <div class="item5">
+				  <div class="w3-col m1" style="width:330px; padding-left:8%">
 				  	<h3>Implementation of Various Interactive Features</h3>
 				    <p> MoCap, Eyetracking, Gyroscope, Computer Vision</p>
 				  </div>
 
-				  <div class="item6">
+				  <div class="w3-col m1" style="width:330px; padding-left:8%">
 				  	<h3>Designing Art on any Medium</h3>
 				    <p>Photoshop(2D), Autodesk Maya (3D), 360 Video, Video Editing, etc</p>
 				  </div>
@@ -155,8 +156,8 @@
 
 	  <h4 id="vr">VR Gallery</h4>
 
-		<div class="row">
-		  <div class="col-sm-6" align="center" >
+		<div class="row" align="center" >
+		  <div class="col-sm-6" align="center">
 		    <div class="card" style="width: 90%;">
 		      <img class="card-img-top" src="img/webAR_pic.png" alt="Card image cap">
 			  <div class="card-body">
@@ -168,7 +169,6 @@
 				</button>
 			  </div>
 		    </div>
-
 		  </div>
 		  <div class="col-sm-6" align="center" >
 		    <div class="card" style="width: 90%;">
@@ -189,32 +189,31 @@
 
 	  <h4 id="extra">Blog</h4>
 
-		<div id="sectionBlog" style="padding:5% 10% 10%; text-align:center" >
+		<div id="sectionBlog" style="text-align:center; border-style:solid; " >
 
-		    <div class="grid-container"> 
-			  <div class="item4">
+		    <div class="w3-row" style="overflow:scroll; "> 
+			  <div class="w3-col m1" style="width:330px; padding-left:8%">
 			  	<h3>Tutorials</h3>
 			    <p>Documentation of projects</p>
 			  </div>
 
-			  <div class="item5">
+			  <div class="w3-col m1" style="width:330px; padding-left:8%">
 			  	<h3>Experiences</h3>
 			    <p> Reviews of tools, interviews, and more</p>
 			  </div>
 
-			  <div class="item6">
+			  <div class="w3-col m1" style="width:330px; padding-left:8%">
 			  	<h3>Project Highlights</h3>
 			    <p>Other projects: from 2D games to 360 fun</p>
 			  </div>
 		    </div>
+		</div>	  
 
 			<br>
 			<div align="center">
 			<a href="pageBlog.html" class="btn btn-primary btn-lg">Blog</a>
 			</div>
-		</div>	  
-
-		
+			<br>
 
 	</div>
 

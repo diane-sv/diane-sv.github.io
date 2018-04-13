@@ -1,246 +1,259 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-
-	<title>dVRoman</title>
-
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-
-	<link rel=stylesheet type=text/css href="css/styles.css">
-	<link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
-	<link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
-
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>dVRoman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel=stylesheet type=text/css href="css/styles.css">
+  <link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
-	<link rel="icon" 
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+      color:#ffffff;
+  }
+  .myContent {
+  	padding-left:10%;
+  	padding-right: 10%;
+  	height:800px;
+  }
+
+  .myWhiteButton {
+  	border-style:solid; 
+  	border-width: 2px;
+  	color:#ffffff;
+  	border-color:#fff;
+  	border-radius: 5px;
+  	padding:10px; 
+  	margin:5px;
+  	background-color:rgba(253,255,242, 0.1);
+  }
+  .myBlackButton {
+  	border-style:solid; 
+  	border-width: 2px;
+  	border-color:#000000;
+  	border-radius: 5px;
+  	color:#000000; 
+  	padding:10px; 
+  	margin:5px;
+  	background-color:rgba(215,215,215, 0.1);
+  }
+
+  #section0 {padding-top:50px;height:800px;; }
+  #section1 {height:90px;background-color:rgba(158,195,239, 1); width:100%;}
+  #section2 {height:90px;background-color:rgba(158,195,239, 1); width:100%;}
+  #section3 {height:90px;background-color:rgba(158,195,239, 1); width:100%;}
+  #section4 {height:90px;background-color:rgba(158,195,239, 1); width:100%;}
+  </style>
+
+  	<link rel="icon" 
       		type="image/png" 
       		href="img/favicon.png" 
       	/>
 
-    <style>
-
-	.grid-container {
-	  display: grid;
-	  grid-template-columns: auto auto auto;
-	  grid-gap: 10px;
-	  border-style: solid;
-	  padding: 10px;
-	}
-	.grid-container>div {
-	  background-color: rgba(255, 255, 255, 0.8);
-	  padding:20px 0;
-	}
-	.item1 {
-	  grid-column: 1 / span 2;
-	}
-
-    </style>
-
-
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<body style="color:#000000">
-	<div id="nav-top" style="width:100%;">
-		<nav id="navbar-example2" class="navbar navbar-expand-sm bg-dark navbar-dark" style="opacity:100%">
-		<a href="index.html">
-				<img src="img/iconDV_small.png" class="img-rounded" alt="diane villaroman" >
-			</a>
-		<div class="container">
-			<ul class="navbar-nav mr-auto">
-			    <li class="nav-item">
-			      <a class="nav-link" href="#about">About Me</a>
-			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link" href="#work">Work Projects</a>
-			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link" href="#vr">VR Gallery</a>
-			    </li>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<a class="navbar-brand" href="index.html" style="padding:2px;">
+			<img src="img/iconDV_smallest.png" alt="diane villaroman">
+      	</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">About Me</a></li>
+          <li><a href="#section2">Work</a></li>
+          <li><a href="#section3">VR Gallery</a></li>
+          <li><a href="#section4">More</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-			    <li class="nav-item">
-			      <a class="nav-link" href="#extra">More</a>
-			    </li>
+<div id="section0" style="background-image:url('img/20180218_184140.jpg'); background-size: 110em 800px; background-repeat: no-repeat;" class="container-fluid">
+  	
+  	<div class="myContent" align="center" style="padding-top:100px">
+  	<br>
+  	<br>
+	<div style="border-style:solid; width:450px; background-color:rgba(253,255,242, 0.2);">
+  		<h1 style="font-size:80px;">Diane <br> Villaroman</h1>
+  	</div>
+  	<br>
+  	<br>
+  	<br>
+  	<div align="center">
+	  	<div style="border-style:solid; width:500px; padding:10px; background-color:rgba(253,255,242, 0.2);">
+	  		<h1 style="font-size:30px;">Lead Programmer & Digital Artist at UCLA</h1>
+	  	</div>
+  	</div>
+  	</div>
+</div>
 
-			</ul>
-		</div>
-		</nav>
+<div id="section1" align="center" style="padding-top:15px">
+	<h1>Who Am I?</h1>
+</div>
+
+<div style="height:800px; background-image:url('img/me.jpg'); background-size: 110em 1200px; background-repeat: no-repeat;">
+
+	<div class="myContent" align="center">
+
+		<div style="position:relative; padding-top:150px; height:auto;">
+		<h1 align="center">VR + Science = Me</h1>
+
+
+	    <div class="w3-row" style="border-style:solid; overflow:scroll; background-color:rgba(253,255,242, 0.3); padding-left:60px; padding-top:60px; padding-bottom:60px; width:100%"> 
+		  <div class="w3-col m1" style="width:250px; padding-right:20px">
+		  	<h3>Full Production on Multiple Platforms and Languages</h3>
+		    <p>GearVR, Vive, iPad, Web, and more!</p>
+		  </div>
+
+		  <div class="w3-col m1" style="width:250px; padding-right:20px;">
+		  	<h3>Implementation of Various Interactive Features</h3>
+		    <p> MoCap, Eyetracking, Gyroscope, Computer Vision</p>
+		  </div>
+
+		  <div class="w3-col m1" style="width:250px; padding-right:20px;">
+		  	<h3>Designing Art on any Medium</h3>
+		    <p>Photoshop(2D), Autodesk Maya (3D), 360 Video, Video Editing, etc</p>
+		  </div>
+
+		  <div class="w3-col m1" style="width:250px;">
+		  	<h3>Analyzing Data</h3>
+		    <p>Matlab, R, fsl, Python</p>
+		  </div>
+	    </div>
+
+	    <div align="center">
+	    <a href="pageAbout.html"> 
+	    	<button class="myWhiteButton">Learn more</button>
+	    </a>
+	    </div>
 	</div>
-	<div data-spy="scroll" data-target="#navbar-example2" data-offset="200" style="padding-left:10%; padding-right:10%; ">
-		<div>
+	
+</div>
 
-	  	<div id="about" style="margin:30px">
-		  <h2>About Me</h2>
-		  	<div class="row">
-				<div style="float:left; margin:auto; color:#000000">
-					<h1 style="font-size:80px"> Diane <br> Villaroman</h1>
-				</div>
-				<div style="float:right; margin:auto">
-					<img src="img/DianeV_photo.jpg" alt="DianeV" style="border-radius:10px; width: 235px; height: 300px">
-				</div>
-			</div>
+
+<div id="section2" align="center" style="padding-top:20px;">
+	<h1>Technology + Neuroscience = Work</h1>
+</div>
+
+<div style="height:1200px; background-image:url('img/work.jpg'); background-size: 100% 100%; background-repeat: no-repeat;">
+	<div class="myContent" style="color:#000000">
+		<div style="padding-top: 100px; padding-right:50%;">
+
+			<img src="img/LogoMLab_inverted.png" alt="MLab">
+			<p style="line-height: 3;">
+			Directed by Dr. Luke Macyszyn, the medical imaging lab produces machine learning apps for spine analysis. As their software developer, I create VR experiences for patient education, web apps, and training databases for ML, all within the past 2 years.
+			</p>
 			<div align="center">
-				<br>
-				<div>
-					<h2>Lead VR programmer and graphics designer for UCLA's VR Lab</h2>
-					<div align="center">
-					<a href="pageAbout.html" class="btn btn-primary btn-lg">More About Me</a>
-					</div>
-				</div>
+		    <a href="pageAbout.html"> 
+		    	<button class="myBlackButton">My Projects for MLab</button>
+		    </a>
+		    </div>
+		</div>
+
+		<div style="padding-left: 600px; padding-top: 230px;">
+			<div style="padding-left: 280px">
+				<img src="img/LogoLonnLab.png" alt="LonnLab">
 			</div>
-
-			<br><br>
-
-			<div id="section2">
-				<h1 align="center">VR + AR Work</h1>
-
-			    <div class="w3-row" style="border-style:solid; overflow:scroll; "> 
-				  <div class="w3-col m1" style="width:330px; padding-left:8%">
-				  	<h3>Full Production on Multiple Platforms and Languages</h3>
-				    <p>GearVR, Vive, iPad, Web, and more!</p>
-				  </div>
-
-				  <div class="w3-col m1" style="width:330px; padding-left:8%">
-				  	<h3>Implementation of Various Interactive Features</h3>
-				    <p> MoCap, Eyetracking, Gyroscope, Computer Vision</p>
-				  </div>
-
-				  <div class="w3-col m1" style="width:330px; padding-left:8%">
-				  	<h3>Designing Art on any Medium</h3>
-				    <p>Photoshop(2D), Autodesk Maya (3D), 360 Video, Video Editing, etc</p>
-				  </div>
-			    </div>
-
-				<br>
-			</div>
-
-		</div>
-
-		</div>
-
-
-	  <h2 id="work">Work Projects</h2>
-	  
-	  	<div class="row">
-		  <div class="col-sm-6" align="center" >
-		    <div class="card" style="width: 90%;">
-		      <img class="card-img-top" src="img/LogoLonnLab.png" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">LONN Lab @ UCLA</h5>
-			    <p class="card-text">Under the director Dr. Nanthia Suthana, the research lab studies the neuroscience behind learning and memory. Dubbed their VR Magician, I have produced multiple experiences that include untethered walking and eye tracking within the past 2 years.</p>
-			    <a href="pageWork_SLab.html" class="btn btn-primary btn-lg">My Projects</a>
-			    <br><br>
-			    <a href="http://lonn.semel.ucla.edu/" class="btn btn-primary btn-sm">Official Website</a>
-			  </div>
-		    </div>
-
-		  </div>
-		  <div class="col-sm-6" align="center" >
-		    <div class="card" style="width: 90%;">
-		      <img class="card-img-top" src="img/LogoMLab.png" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">MLab @ UCLA</h5>
-			    <p class="card-text">Directed by Dr. Luke Macyszyn, the medical imaging lab produces machine learning apps for spine analysis. As their software developer, I create VR experiences for patient education, web apps, and training databases for ML, all within the past 2 years.</p>
-			    <a href="pageWork_MLab.html" class="btn btn-primary btn-lg">My Projects</a>
-			    <br><br>
-			    <a href="http://mlab.neurosurgery.ucla.edu/" class="btn btn-primary btn-sm">Official Website</a>
-			  </div>
-		    </div>
-		  </div>
-		</div>
-
-
-	  <br>
-
-	  <h2 id="vr">VR Gallery</h2>
-
-		<div class="row" align="center" >
-		  <div class="col-sm-6" align="center">
-		    <div class="card" style="width: 90%;">
-		      <img class="card-img-top" src="img/webAR_pic.png" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">AR in Action: Brain Filter</h5>
-			    <p class="card-text">Learn a little about the anatomy of the brain as if it's in your hand. Or maybe take a picture with your brain exposed!</p>
-			    <a href="pageVr_ARdemo.html" class="btn btn-primary">Play App</a>
-			    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#arModal">
-				  Learn more
-				</button>
-			  </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-6" align="center" >
-		    <div class="card" style="width: 90%;">
-		      <img class="card-img-top" src="img/VRGallery_demo.jpg" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">VR in Action: Interactive 360 Photos and Videos</h5>
-			    <p class="card-text">Step into special moments while staying in your own seat! All you need is your phone!</p>
-			    <a href="pageWork_MLab.html" class="btn btn-primary">Play App</a>
-			    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vrModal">
-				  Learn more
-				</button>
-			  </div>
-		    </div>
-		  </div>
-		</div>
-
-	  <br>
-
-	  <h2 id="extra">Blog</h2>
-
-		<div id="sectionBlog" style="text-align:left; border-style:solid; " >
-
-		    <div class="w3-row" style="overflow:scroll; "> 
-			  <div class="w3-col m1" style="width:330px; padding-left:8%">
-			  	<h3>Tutorials</h3>
-			    <p>Documentation of projects</p>
-			  </div>
-
-			  <div class="w3-col m1" style="width:330px; padding-left:8%">
-			  	<h3>Experiences</h3>
-			    <p> Reviews of tools, interviews, and more</p>
-			  </div>
-
-			  <div class="w3-col m1" style="width:330px; padding-left:8%">
-			  	<h3>Project Highlights</h3>
-			    <p>Other projects: from 2D games to 360 fun</p>
-			  </div>
-		    </div>
-		</div>	  
-
-			<br>
+			<p style="line-height: 3;">
+			Under the director Dr. Nanthia Suthana, the research lab studies the neuroscience behind learning and memory. Dubbed their VR Magician, I have produced multiple experiences that include untethered walking and eye tracking within the past 2 years.
+			</p>
 			<div align="center">
-			<a href="pageBlog.html" class="btn btn-primary btn-lg">Blog</a>
+		    <a href="pageAbout.html"> 
+		    	<button class="myBlackButton">My Projects for LONN Lab</button>
+		    </a>
+		    </div>
+		</div>
+	</div>
+</div>
+
+<div id="section3" align="center" style="padding-top:20px">
+	<h1>You + Demo = Play</h1>
+</div>
+
+<div style="height:800px; background-image:url('img/20170510_112055.jpg'); background-size: 110em 800px; background-repeat: no-repeat;">
+	<div class="myContent">
+
+		<div style="column-count: 2;padding-top:180px;">
+		<div >
+			<div style="background-color:#93CDD3; padding:20%">
+			<h2>AR in Action: Brain Filter</h2>
+			<p style="line-height: 3;">Learn a little about the anatomy of the brain as if it's in your hand. Or maybe take a picture with your brain exposed!</p>
+			<div align="center">
+		    <a href="pageAbout.html"> 
+		    	<button class="myWhiteButton">Play me</button>
+		    </a>
+		    </div>
 			</div>
 			<br>
+			<br>
+			<br>
+		</div>
+
+		<div >
+			<div style="background-color:#F9C2F5; padding:20%">
+			<h2>VR in Action: Interactive 360 Photos and Videos</h2>
+			<p style="line-height: 3;">Step into special moments while staying in your own seat! All you need is your phone!</p>
+
+			<div align="center">
+		    <a href="pageAbout.html"> 
+		    	<button class="myWhiteButton">Play me</button>
+		    </a>
+		    </div>
+			</div>
+		</div>
 
 	</div>
+</div>
 
-<br>
+<div id="section4" align="center" style="padding-top:20px">
+	<h1>Documentation + Time = Blog</h1>
+</div>
+
+<div style="height:800px; background-image:url('img/hands.jpg'); background-size: 110em 1200px; background-repeat: no-repeat;">
+	<div class="myContent" align="center" >
+		<div style="position:relative; padding-top:150px; height:auto;">
 
 
+	    <div class="w3-row" style="border-style:solid; overflow:scroll; background-color:rgba(253,255,242, 0.3); padding-left:60px; padding-top:60px; padding-bottom:60px; width:100%"> 
+		  <div class="w3-col m1" style="width:360px; padding-right:20px">
+		  	<h3>Tutorials</h3>
+			<p>Documentation of projects</p>
+		  </div>
 
-<br>
+		  <div class="w3-col m1" style="width:360px; padding-right:20px;">
+		  	<h3>Experiences</h3>
+			<p> Reviews of tools, interviews, and more</p>
+		  </div>
 
-	<div style="background-color:#343A40; padding:5px;" align="center" class="bg-dark navbar-dark">
-		<span class="navbar-text">
-			<a href="pageContact.html">@</a>
+		  <div class="w3-col m1" style="width:360px; padding-right:20px;">
+		  	<h3>Project Highlights</h3>
+			<p>Other projects: from 2D games to 360 fun</p>
+		  </div>
+	    </div>
 
-			<a href="https://www.youtube.com/channel/UCx7CyKkWn7ZlixxB6tAftcA"><i class="fab fa-youtube-square"></i></a>
-			
-			<a href="https://www.linkedin.com/in/diane-villaroman"> <i class="fab fa-linkedin"></i></a>
-
-			<a href="https://github.com/diane-sv"><i class="fab fa-github"></i></a>
-		</span>
 	</div>
+</div>
 
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>

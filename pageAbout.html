@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dVRoman</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel=stylesheet type=text/css href="css/styles.css">
+  <link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <script src="js/functions.js"></script>	
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+      color:#ffffff;
+  }
+  .myContent {
+  	padding-left:10%;
+  	padding-right: 10%;
+  }
+
+  .myWhiteButton {
+  	border-style:solid; 
+  	border-width: 2px;
+  	color:#ffffff;
+  	border-color:#fff;
+  	border-radius: 5px;
+  	padding:10px; 
+  	margin:5px;
+  	background-color:rgba(253,255,242, 0.1);
+  }
+  .myBlackButton {
+  	border-style:solid; 
+  	border-width: 2px;
+  	border-color:#000000;
+  	border-radius: 5px;
+  	color:#000000; 
+  	padding:10px; 
+  	margin:5px;
+  	background-color:rgba(215,215,215, 0.1);
+  }
+
+
+
+  </style>
+
+  	<link rel="icon" 
+      		type="image/png" 
+      		href="img/icons/favicon.png" 
+      	/>
+
+</head>
+<body style="background-color:#fff;">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<a class="navbar-brand" href="index.html" style="padding:2px;">
+			<img src="img/icons/iconDV_smallest.png" alt="diane villaroman">
+      	</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="pageAbout.html">About Me</a></li>
+          <li><a href="pageWork.html">Work</a></li>
+          <li><a href="pageVr.html">VR Gallery</a></li>
+          <li><a href="pageBlog.html">More</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div class="container-fluid" style="height:900px;" align="center">
+  	<h1 style="font-size:70px; color:#000"> Diane Villaroman </h1>
+	<div class="fadeInAuto" >
+		<img src="img/about/DianeV_photo.jpg" style="border-radius:200px; width: 235px; height: 300px" >
+	</div>
+  <br>
+
+	<div style="color:#000; border-style:solid; width:60%; padding:10px; background-color:rgba(0,0,0, 0.2); text-align:justify">
+		<p> Diane Villaroman is the lead software engineer and technical artist for UCLA's VR lab.  Operating at the intersection of art, science, and health, Diane enjoys her lifestyle of delivering creative solutions with new technologies for challenging problems.  Diane mixes software development with neuroscience, research with art, and health care with entertainment - with the ultimate goal of pursuing a reality that pushes boundaries.
+		<br><br>
+		Diane first joined the UCLA Health Neurosurgery Department when the VR lab was first created.  Through the challenges of starting a new research lab, Diane became the sole full-stack production specialist for UCLA Health VR and AR experiences. Her body of work include using virtual and augmented reality as tools for communication in a medical clinic, for university classroom training, and for research with electrophysiology.  In addition, Diane has various experiences in implementing various technologies.  Specifically, she combines 3D modeling, motion capture software, and the Unity game engine to produce products for the HTC Vive, Samsung Gear VR, and other platforms. While she mainly uses C#, Diane is also proficient in a variety of other languages for web, desktop, and mobile applications. Her work has been presented in international conferences and journal publications in Neuroscience, Psychiatry, and Computer Science fields.  
+		</p>
+	</div>
+
+</div>
+
+<div class="container" style=" align:center">
+    <div class="row" >
+        <div class="col-md-12" >
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox" align="center" style="height:700px;">
+                    <div class="item">
+                        <a id="scientist" onclick="showText('scientist')">
+							<img src="img/about/diane_Researcher.jpg">
+						</a>
+						<div class="carousel-content" >
+                    		<h1>Programmer</h1>
+                    		<div>
+                    		<ul>
+                    			<li>C# and Unity Game Engine</li>
+                    			<li>Python: numpy, pandas, OpenCV, MEL</li>
+                    			<li>Web: HTML, CSS, JavaScript, Golang, Wordpress</li>
+                    			<li>Command line/Terminal</li>
+                    			<li>C++ and Visual Studio</li>
+                    			<li>Input Controllers</li>
+                    			<li>Python: OpenCV</li>
+                    		</ul>
+                    		</div>
+                    	</div>
+                    </div>
+
+                    <div class="item active">
+                        <a id="adventurer" onclick="showText('adventurer')"> 
+							<img src="img/about/diane_Explorer.jpg" > 
+						</a>
+						<div class="carousel-content" >
+                    		<h1>Pioneer</h1>
+                    		<div>
+                    		<ul>
+                    			<li>Untethered mobile VR experiences</li>
+                    			<li>Integration of computer vision with AR and VR</li>
+                    			<li>Multiplayer network system for VR applications</li>
+                    			<li>Semi-automated generated virtual model of medical images</li>
+                    			<li>Low-cost facial and body motion capture integration</li>
+                    		</ul>
+                    		</div>
+                    	</div>
+                    </div>
+
+                    <div class="item">
+                        <a id="presenter" onclick="showText('presenter')">
+							<img src="img/about/diane_Presenter.jpg">
+						</a>
+						<div class="carousel-content" >
+                    		<h1>Scientist</h1>
+                    		<div>
+                    		<ul>
+                    			<li>Study electrophysiology and its correlation with behavior/memory</li>
+                    			<li>Compare VR, AR, and tablet platforms for educational use in the clinic and classroom</li>
+                    			<li>Analyze medical imaging databases I create for possible biomarkers</li>
+                    			<li>Collaborate with other scientists to improve clinical workflow and deepen knowledge of the brain and spine</li>
+                    		</ul>
+                    		</div>
+                    	</div>
+                    </div>
+
+                    <div class="item">
+                        <a id="graduate" onclick="showText('graduate')">
+							<img src="img/about/diane_Graduate.jpg" >
+						</a>
+                        <div class="carousel-content" >
+                    		<h1>Scholar</h1>
+                    		<div>
+                    		<ul>
+                    			<li>Neuroscience B.S. UCLA 2016</li>
+                    			<li>Medical Imaging Research Capstone</li>
+                    			<li>Neuromuscular Junction Electrophysiology Research</li>
+                    			<li>Electrophysiology Matlab Analysis</li>
+                    			<li>Statistical Analysis with R</li>
+                    			<li>Neuroregeneration research at Peking University, Beijing, China (UCLA-JRI Program)</li>
+                    		</ul>
+                    		</div>
+                    	</div>
+
+                    </div>
+                    
+                    <div class="item">
+                        <a id="medical" onclick="showText('medical')">
+							<img src="img/about/diane_Educator.jpg" >
+						</a>
+						<div class="carousel-content" >
+                    		<h1>Educator</h1>
+                    		<div>
+                    		<ul>
+                    			<li>Communicate medical terms to patients with VR/AR/iPad apps</li>
+                    			<li>Train undergraduates to apply computer science in research</li>
+                    			<li>Plan apps for graduate student education</li>
+                    			<li>Present findings with oral presentations, posters, and discussion groups internationally</li>
+                    		</ul>
+                    		</div>
+                    	</div>
+                    </div>
+                    
+                    
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div style="text-align:center; margin:20px;">
+  <a href="img/Diane_Villaroman_CV.pdf" class="myBlackButton">Curriculum Vitae</a>
+</div>
+
+<div style="background-color:#343A40; padding:5px;" align="center" class="bg-dark navbar-dark">
+	<span class="navbar-text">
+		<a href="pageContact.html">@</a>
+
+		<a href="https://www.youtube.com/channel/UCx7CyKkWn7ZlixxB6tAftcA"><i class="fab fa-youtube-square"></i></a>
+		
+		<a href="https://www.linkedin.com/in/diane-villaroman"> <i class="fab fa-linkedin"></i></a>
+
+		<a href="https://github.com/diane-sv"><i class="fab fa-github"></i></a>
+	</span>
+	<br>
+	<br>
+</div>
+
+
+</body>
+</html>

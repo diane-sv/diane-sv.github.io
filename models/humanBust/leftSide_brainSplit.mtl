@@ -1,0 +1,134 @@
+newmtl _Color_Brain:BRAIN_Amygdala
+illum 4
+Kd 0.71 0.70 0.37
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.35 0.19
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Caudate_nucleus
+illum 4
+Kd 0.68 0.25 0.25
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.34 0.12 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Cerebellum
+illum 4
+Kd 0.25 0.14 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.13 0.07 0.05
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gray_matter
+illum 4
+Kd 0.54 0.19 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.27 0.09 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus__precentralis
+illum 4
+Kd 0.56 0.29 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.14 0.08
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_frontalis
+illum 4
+Kd 0.56 0.12 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.06 0.06
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_postcentralis
+illum 4
+Kd 0.14 0.42 0.43
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.21 0.21
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_temporalis
+illum 4
+Kd 0.73 0.41 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.20 0.06
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Hippocamp
+illum 4
+Kd 0.61 0.31 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.15 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Inferior_cerebellar_pedun
+illum 4
+Kd 0.51 0.39 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.25 0.19 0.11
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Limbic_system
+illum 4
+Kd 0.33 0.22 0.57
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.17 0.11 0.28
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Occipital_cortex
+illum 4
+Kd 0.22 0.38 0.55
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.11 0.19 0.27
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Pons
+illum 4
+Kd 0.18 0.41 0.42
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.21 0.21
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Precuneus
+illum 4
+Kd 0.14 0.35 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.18 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Putamen
+illum 4
+Kd 0.64 0.69 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.35 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Superior_cerebellar_pedun
+illum 4
+Kd 0.64 0.23 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.11 0.11
+Ns 8.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

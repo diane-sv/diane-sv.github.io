@@ -10,8 +10,8 @@
 		<!-- <a-marker type='unknown'>
 			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
 		</a-marker> -->
-		<a-asset-item id = "leftBrain-obj" src="models/humanBust/leftSide_brainSplit.obj"></a-asset-item>
-		<a-asset-item id="leftBrain-mtl" src="models/humanBust/leftSide_brainSplit.mtl"></a-asset-item>
+		<a-asset-item id = "leftBrain-obj" src="models/humanBust/animatedBrain_L.obj"></a-asset-item>
+		<a-asset-item id="leftBrain-mtl" src="models/humanBust/animatedBrain_L.mtl"></a-asset-item>
 		
 		<a-asset-item id = "rightBrain-obj" src="models/humanBust/rightSide_brainSplit.obj"></a-asset-item>
 		<a-asset-item id="rightBrain-mtl" src="models/humanBust/rightSide_brainSplit.mtl"></a-asset-item>
@@ -25,7 +25,7 @@
 		</a-marker>
 		
 		<a-marker preset='hiro'>
-			<a-entity obj-model="obj: #rightBrain-obj; mtl: #rightBrain-mtl" rotation="-90 0 0" scale="20 20 20" position="0 -4 3"></a-entity>
+			<a-entity animation-mixer="loop: repeat" shadow="cast: true" id="fbxBrain" scale="0 0 0" position="0 0 0" json-model="src: url(models/animatedbrain-r.json);"> </a-entity>
 		</a-marker>
 		
 		<!-- add a simple camera -->

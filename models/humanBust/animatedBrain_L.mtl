@@ -1,0 +1,392 @@
+newmtl _Color_Brain:BRAIN_Amygdala
+illum 4
+Kd 0.71 0.70 0.37
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.35 0.19
+Ns 8.00
+newmtl _Color_Brain:BRAIN_BRAIN_Ttrigone
+illum 4
+Kd 0.62 0.32 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.31 0.16 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Caudate_nucleus
+illum 4
+Kd 0.68 0.25 0.25
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.34 0.12 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Cerebellum
+illum 4
+Kd 0.25 0.14 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.13 0.07 0.05
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Cerebral_peduncle
+illum 4
+Kd 0.34 0.55 0.61
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.17 0.28 0.30
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Corpus_collosum
+illum 4
+Kd 0.76 0.68 0.49
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.38 0.34 0.24
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Cuneate_tubercle
+illum 4
+Kd 0.61 0.42 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.31 0.21 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Facial_colliculus
+illum 4
+Kd 0.60 0.32 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.16 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gracile_tubercle
+illum 4
+Kd 0.63 0.47 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.31 0.23 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gray
+illum 4
+Kd 0.69 0.69 0.69
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.35 0.35 0.35
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gray_matter
+illum 4
+Kd 0.54 0.19 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.27 0.09 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus__precentralis
+illum 4
+Kd 0.56 0.29 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.14 0.08
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_frontalis
+illum 4
+Kd 0.56 0.12 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.06 0.06
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_postcentralis
+illum 4
+Kd 0.14 0.42 0.43
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.21 0.21
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Gyrus_temporalis
+illum 4
+Kd 0.73 0.41 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.20 0.06
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Hippocamp
+illum 4
+Kd 0.61 0.31 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.15 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Hypophysis
+illum 4
+Kd 0.75 0.74 0.45
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.37 0.37 0.23
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Hypothalamus
+illum 4
+Kd 0.34 0.28 0.52
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.17 0.14 0.26
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Inferior_cerebellar_pedun
+illum 4
+Kd 0.51 0.39 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.25 0.19 0.11
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Inferior_colliculus
+illum 4
+Kd 0.46 0.39 0.38
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.23 0.19 0.19
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Infundibulum
+illum 4
+Kd 0.59 0.75 0.45
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.37 0.23
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Lateral_geniculate_nucleu
+illum 4
+Kd 0.55 0.17 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.09 0.08
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Lateral_recess
+illum 4
+Kd 0.62 0.47 0.27
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.31 0.24 0.13
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Limbic_system
+illum 4
+Kd 0.33 0.22 0.57
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.17 0.11 0.28
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Mammillary_body
+illum 4
+Kd 0.34 0.35 0.61
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.17 0.18 0.30
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Medial_geniculate_body
+illum 4
+Kd 0.31 0.29 0.41
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.16 0.15 0.20
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Medulla
+illum 4
+Kd 0.66 0.55 0.27
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.33 0.27 0.13
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Occipital_cortex
+illum 4
+Kd 0.22 0.38 0.55
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.11 0.19 0.27
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Olfactory_bulb
+illum 4
+Kd 0.59 0.48 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.29 0.24 0.09
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Olive_Piramid
+illum 4
+Kd 0.64 0.47 0.30
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.24 0.15
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Pineal_body
+illum 4
+Kd 0.48 0.32 0.42
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.24 0.16 0.21
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Piramid
+illum 4
+Kd 0.60 0.40 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.20 0.11
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Pons
+illum 4
+Kd 0.18 0.41 0.42
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.21 0.21
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Precuneus
+illum 4
+Kd 0.14 0.35 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.18 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Putamen
+illum 4
+Kd 0.64 0.69 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.35 0.12
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Spinal_cord
+illum 4
+Kd 0.72 0.64 0.32
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.32 0.16
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Striae
+illum 4
+Kd 0.76 0.76 0.76
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.38 0.38 0.38
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Structure
+illum 4
+Kd 0.75 0.69 0.61
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.38 0.35 0.30
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Superior_cerebellar_pedun
+illum 4
+Kd 0.64 0.23 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.11 0.11
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Superior_colliculus
+illum 4
+Kd 0.65 0.30 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.33 0.15 0.10
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Thalamus
+illum 4
+Kd 0.51 0.05 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.25 0.03 0.03
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Ventricle_of_brain
+illum 4
+Kd 0.21 0.58 0.58
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.11 0.29 0.29
+Ns 8.00
+newmtl _Color_Brain:BRAIN_Vestibular_area
+illum 4
+Kd 0.64 0.45 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.22 0.08
+Ns 8.00
+newmtl _Color_Brain:EYE_Black
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 8.00
+newmtl _Color_Brain:EYE_Cornea
+illum 4
+Kd 0.63 0.63 0.63
+Ka 0.00 0.00 0.00
+Tf 0.10 0.10 0.10
+Ni 1.00
+Ks 0.39 0.39 0.39
+Ns 128.00
+newmtl _Color_Brain:EYE_Iris
+illum 4
+Kd 0.15 0.10 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.05 0.04
+Ns 8.00
+newmtl _Color_Brain:EYE_Optic_Nerve1
+illum 4
+Kd 0.75 0.71 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.37 0.36 0.03
+Ns 8.00
+newmtl _Color_Brain:EYE_Optic_nerve_sheath
+illum 4
+Kd 0.76 0.74 0.63
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.38 0.37 0.32
+Ns 8.00
+newmtl _Color_Brain:EYE_Sclera
+illum 4
+Kd 0.66 0.69 0.73
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.33 0.35 0.37
+Ns 8.00

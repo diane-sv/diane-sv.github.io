@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dVRoman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel=stylesheet type=text/css href="css/styles.css">
+  <link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="js/functions.js"></script> 
+  <script src="js/scrollDown.js"></script>  
+
+
+    <link rel="icon" 
+          type="image/png" 
+          href="img/icons/favicon.png" 
+        />
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="padding:2px;">
+      <img src="img/icons/iconDV_smallest.png" alt="diane villaroman">
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="pageAbout.html" >About Me</a></li>
+          <li><a href="pageWork.html" >Work</a></li>
+          <li><a href="pageBlogs.html" >Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<h1 style="margin-top:100px; padding:20px; width:auto; text-align:center; font-size:60px">[ Human Animation Database ]</h1>
+
+  <div style="width: 1200px; margin:20px; display: table;">
+      <div style="display: table-row">
+        <div  align="left" style="width: 40%; display: table-cell; vertical-align: top;">
+          <img class="myCard-img-side" src="img/projects/7front.png" alt="Card image cap">
+          <img class="myCard-img-side" src="img/projects/7allAnimatedModels.jpg" alt="Card image cap">
+          <div class="myCard-img-side" style="text-align:center">
+            <iframe width="500" height="275" src="https://www.youtube.com/embed/1HCQMVGPHJk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+          <div align="left" style="width: 60%; display: table-cell; background-color:#C4E3F7; border-style:solid;">
+        
+          <p style="padding:30px">
+          The Graphics community have been searching for ways to prevent the Uncanny Valley phenomenon with human avatars. This lays the foundation for a human-to-human interaction study on mirror neurons. However, this initial stages focus more on proof of concept, to see how I can take real people's scanned models and integrate face and body motion capture. 
+          <br>
+          <br>
+          I used the Eva Lite 3D scanner to create a person's whole body in 3D. Unfortunately, Unity has a limit to how many polygons are associated with an animation, so I had to cut the model down by 1000% (not exact). Another difficulty here was that the scanned model's texture was not mapped efficiently, something I had to be constantly aware about.
+          <br>
+          <br>
+          Next, I used the OptiTrack cameras to get their natural body movements in motion capture. As an initial database, we used a previously published database for positive, negative, and neutral gestures. Not until after this database was made did we decide to include face motion capture. I used a separate process via Autodeks MatchMover. This separated databases of face and movement was actually beneficial in order to create different combinations of whole body gestures.
+          <br>
+          <br>
+          The final 4 animated models were imported into Unity and can be played on the HTC Vive. This workflow is still currently being updated for efficiency, but hopefully you can learn a lot from the experience in my tutorials.
+          </p>
+          
+      </div>
+    </div>
+  </div>
+
+<!-- Footnote -->
+<div style="background-color:#343A40; width:auto; padding:0px;margin-bottom:1px" align="center" class="bg-dark navbar-dark">
+  <span class="navbar-text">
+    <a href="pageAbout.html">@</a>
+
+    <a href="https://www.youtube.com/channel/UCx7CyKkWn7ZlixxB6tAftcA"><i class="fab fa-youtube-square"></i></a>
+    
+    <a href="https://www.linkedin.com/in/diane-villaroman"> <i class="fab fa-linkedin"></i></a>
+
+    <a href="https://github.com/diane-sv"><i class="fab fa-github"></i></a>
+  </span>
+  <br>
+  <br>
+</div>
+
+</body>
+</html>

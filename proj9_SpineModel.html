@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dVRoman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel=stylesheet type=text/css href="css/styles.css">
+  <link rel=stylesheet type=text/css href="css/unicornuibuttons.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome-all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fontawesome.css">
+  <link rel=stylesheet type=text/css href="css/fontawesome/css/fa-brands.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="js/functions.js"></script> 
+  <script src="js/scrollDown.js"></script>  
+
+
+    <link rel="icon" 
+          type="image/png" 
+          href="img/icons/favicon.png" 
+        />
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="padding:2px;">
+      <img src="img/icons/iconDV_smallest.png" alt="diane villaroman">
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="pageAbout.html" >About Me</a></li>
+          <li><a href="pageWork.html" >Work</a></li>
+          <li><a href="pageBlogs.html" >Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<h1 style="margin-top:100px; padding:20px; width:auto; text-align:center; font-size:60px">[ Semi-automated Production of MRI to 3D Model ]</h1>
+
+  <div style="width: 1200px; margin:20px; display: table;">
+      <div style="display: table-row">
+        <div  align="left" style="width: 40%; display: table-cell; vertical-align: top;">
+          
+          <img class="myCard-img-side" src="img/projects/9scoli.png" alt="Card image cap">
+
+          <div class="myCard-img-side" style="padding-right:20px;">
+            <iframe width="500" height="275" src="https://www.youtube.com/embed/DouEl2BeWMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="myCard-img-side" style="padding-right:20px; margin:10px">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTh0G0RXFBbAknU8qczDPGlf1k4aUEsySR0A1Y8tZxHujD_QhUQOyrvBA55j8glD2HwoEGXslHtXU--/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+          
+        </div>
+
+          <div align="left" style="width: 60%; display: table-cell; background-color:#C4E3F7; border-style:solid;">
+        
+          <p style="padding:30px">
+          Medical images are taken in 3D space, getting information from coronal, axial, and sagittal views. This information can be translated into a 3D model; however, most programs require manual segmentation of separate anatomy parts for a anatomy separated model. In addition, these generated models are created as a volume rather than surface only.
+          <br>
+          <br>
+          Using the MLab in-house machine learning algorithm (Bilwaj Gaonkar, et al) on high resolution MRI (detailed in each plane), I am able to create a high quality 3D volumetric model using tools like Slicer 3D (). Using the Slicer SDK, this process can automatically generate an fbx model to import into any application.
+          <br>
+          <br>
+          As a separate process, I used the computer vision library OpenCV on Python language in order to also semi-automate the process. The process finds finds the center, angle, and dimensions of each vertebral body. This information is then fed into a Maya MEL script to automatically morph a generic 3D model into the patient-specific measurements. Comparisons can be seen on the bottom panel.
+          <br>
+          <br>
+          This is a work in progress, where future work will focus on increasing accuracy especially with pathologies present.
+          </p>
+          
+      </div>
+    </div>
+  </div>
+
+<!-- Footnote -->
+<div style="background-color:#343A40; width:auto; padding:0px;margin-bottom:1px" align="center" class="bg-dark navbar-dark">
+  <span class="navbar-text">
+    <a href="pageAbout.html">@</a>
+
+    <a href="https://www.youtube.com/channel/UCx7CyKkWn7ZlixxB6tAftcA"><i class="fab fa-youtube-square"></i></a>
+    
+    <a href="https://www.linkedin.com/in/diane-villaroman"> <i class="fab fa-linkedin"></i></a>
+
+    <a href="https://github.com/diane-sv"><i class="fab fa-github"></i></a>
+  </span>
+  <br>
+  <br>
+</div>
+
+</body>
+</html>
+
+

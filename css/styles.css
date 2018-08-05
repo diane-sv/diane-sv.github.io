@@ -1,11 +1,12 @@
 body {
+    overflow:scroll;
     background-color: #ffffff;
     /*background-image: url("../img/circuit2.jpg");*/
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
     height: 100%;
-    color: #F3F4EB;
+    color: #000000;
     font-family: Verdana,Geneva,sans-serif;
     /*font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;*/
 }
@@ -279,7 +280,6 @@ select {
    height:30%;
 }
 
-<style>
 .scrolldown1 {
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
@@ -314,4 +314,61 @@ select {
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
+.myCard {
+    height: 440px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.myCard-img-top{
+    height: 200px;
+    width: 100%;
+}
+
+.myCard-img-side{
+    height: 300px;
+    width: 100%;
+    padding:5px;
+}
+
+.myCard-body{
+    height: 200px;
+    width: 100%;   
+    background-color: #9DC4E1;
+}
+
+.myCard-title{
+    font-size: 30px;
+    padding:2px;
+}
+
+.myCard-text{
+    font-size: 15px;
+    padding:2px;
+}
+
+
+.myWhiteButton {
+    border-style:solid; 
+    border-width: 2px;
+    color:#ffffff;
+    border-color:#fff;
+    border-radius: 5px;
+    padding:10px; 
+    margin:5px;
+    background-color:rgba(253,255,242, 0.1);
+}
+.myBlackButton {
+    border-style:solid; 
+    border-width: 2px;
+    border-color:#000000;
+    border-radius: 5px;
+    color:#000000; 
+    padding:10px; 
+    margin:5px;
+    background-color:rgba(215,215,215, 0.1);
+}
 
